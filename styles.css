@@ -25,11 +25,16 @@ a:hover {
   height: 50px;
   width: 100%;
   background-color: red;
+  color: yellow;
   text-align: center;
 }
 
 div {
   margin-left: 50px;
+}
+input {
+  width: 300px;
+  height: 40px;
 }
 @media (min-width: 1000px) {
   .nav-bar {
@@ -40,6 +45,7 @@ div {
     height: 50px;
     width: auto;
     background-color: red;
+    color: yellow;
     text-align: center;
   }
 }
